@@ -50,7 +50,7 @@ Options:
   --legendary-quality       The quality factor when crafting a legendary product
                                                            [number] [default: 0]
   --format                  The output format
-                                    [string] [choices: "text"] [default: "text"]
+                             [string] [choices: "text", "csv"] [default: "text"]
 ```
 
 ## Example
