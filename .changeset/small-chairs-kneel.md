@@ -1,0 +1,5 @@
+---
+"qualictivity": minor
+---
+
+Initial release
