@@ -1,0 +1,30 @@
+{
+  "name": "qualictivity",
+  "version": "0.1.0",
+  "description": "Simulate crafting with quality and productivity modules in Factorio",
+  "author": {
+    "name": "Philipp Jardas",
+    "email": "philipp@jardas.de"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/cli.ts",
+    "test": "vitest test/*.test.ts"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "@types/yargs": "^17.0.33",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.0.0",
+    "vitest": "^2.1.5"
+  },
+  "volta": {
+    "node": "23.3.0"
+  }
+}
