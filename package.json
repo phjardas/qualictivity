@@ -12,6 +12,15 @@
   "bin": {
     "qualictivity": "bin/qualictivity.js"
   },
+  "files": [
+    "bin",
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "tsx src/cli.ts",
